@@ -18,7 +18,7 @@ def Graph():
 			count['Neutral']+=1
 		else:
 			count['Negative']+=1
-	plt.title("Reviews Feed-Back Result")
+	plt.title("Polarity of overall Reviews Result")
 	sizes=[count['Positive'],count['Negative'],count['Neutral']]
 	colors=['green','Red','orange']
 	explode=(0.1,0,0)
