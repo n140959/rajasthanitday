@@ -14,13 +14,13 @@ p=reviews1.positive
 n=reviews1.negative
 print ("***///WELCOME TO RATINGSHALA\\\\*******");
 print ("process is started");
-f=open("../stopwords.txt","r").read()
+f=open("stopwords.txt","r").read()
 f=f.split(",")
 re=["garden","health","music"]
 zz=["HACKATHON_SUMMIT","PRAJA-SEVA","smart cities for happy future"]
 j=1
 def start(name):
-	name="../"+name+"_result.txt"
+	name=name+"_result.txt"
 	f = open(name,"r").read()
 	f=f.split("\n")
 	for string in f:
